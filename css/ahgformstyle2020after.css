@@ -1,0 +1,100 @@
+/* CSS */
+ 
+
+body {
+
+	font-size:larger; /* increase font size for easier reading */
+
+
+}
+
+
+label {
+
+	margin-right: .3em;
+	width: 6.3em;  /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
+
+#content{
+
+	padding:1%;
+}
+
+#padder{
+	padding:1%;
+}
+
+#details-col {
+
+	float:left;
+
+}
+#details-col li {   
+	list-style:none;
+}
+
+div#details-col {
+	
+	float:left;	
+	width: 100%;
+}
+
+div#details-col label {
+
+
+	float:left;
+	width:8.3em;
+	text-align:right;
+	display:block;
+	padding-right:.3em;	
+	/*background:#E0E0DD;*/ /* commenting out gray background */
+	clear:right;
+	}
+	
+
+div#details-col ul li {
+	list-style-type:none;
+	margin-left:-2em;
+	margin-bottom:.4em;
+	padding-top: 1%; /* adding padding so text isnt so close together and hard to read */
+
+}
+	
+div#details-col input {
+	
+	margin-left:1em;
+	text-align:left;
+	display:block;
+	clear:right;
+	background-color:#F4F4F4;
+}
+
+
+
+#formstart {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:200%;
+	font-weight:bold;
+}
+
+.outline3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:150%;
+	font-weight:bold;
+}
+
+.outline4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:120%;
+	font-weight:bold;
+}
+
+.button{ /* adding styling for button so its bigger */
+
+	font-weight:120%;
+	font-size:large;
+	padding:1%;
+
+}
+

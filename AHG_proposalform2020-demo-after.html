@@ -16,9 +16,9 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
 <body>
        
-<div id="content">   
+<div id="content" role="main">   
 
-  <div id="formheader" role="">
+  <div id="formheader">
 
      <h1>AHG Presenter Proposal Form 2020</h1>
 
@@ -34,7 +34,7 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
     <legend>Presenter Details</legend>
 
-    <div class="details-col" id="details-col">
+    <div class="details-col" id="details-col" role="form">
 
     <p>Enter presenter details</p>
 
@@ -77,11 +77,9 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
       <legend>Presented or taught course</legend>
 
-  
+      <div class="oneques" role="form">
+
       <p>Have you presented at a national conference, or taught a college-level, semester-long course?*</p>
-
-      <div class="oneques">
-
         <p>
         <span><input value="1" id="natconfexp1_yes" name="natconfexp1" type="radio" required aria-required="true"/>
           <label for="natconfexp1_yes" >Yes</label>
@@ -101,9 +99,13 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
       <legend>Biography</legend>
 
-    <label for="Speaker1bio">Write a biography about yourself (1500 word maximum)</label>
-    
-    <textarea id="Speaker1bio" name="Speaker1bio" cols="80" rows="4" maxlength="1003"></textarea maxlength="1500">
+      <div role="form">
+
+      <label for="Speaker1bio">Write a biography about yourself (1500 word maximum)</label>
+      
+      <textarea id="Speaker1bio" name="Speaker1bio" cols="80" rows="4" maxlength="1003"></textarea maxlength="1500">
+
+    </div>
 
     </fieldset>
 
@@ -115,7 +117,7 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
   
     <legend>Proposal Information</legend>
 
-    <div id="details-col">
+    <div id="details-col" role="form">
 
         
     <ul>
@@ -134,7 +136,7 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 <div style="padding:0.5%"></div>
 
 
-<input class="button" type="submit" value="Submit Proposal" />
+<input class="button" type="submit" value="Submit Proposal" role="button"/>
 
 
 </form>
